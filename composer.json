@@ -1,0 +1,14 @@
+{
+    "name": "demid/tt-php-js",
+    "authors": [
+        {
+            "name": "Demid0",
+            "email": "demid04ka@mail.ru"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
