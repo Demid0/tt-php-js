@@ -1,3 +1,8 @@
+## Stack
+- PHP
+- JS
+- PostgreSQL
+
 ## Start server
 ```shell
 cd public
