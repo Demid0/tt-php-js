@@ -3,11 +3,7 @@
 - JS
 - PostgreSQL
 
-## Start server
-```shell
-cd public
-php -S localhost:8000
-```
+## Create .env as in .env.example
 
 ## DDL
 ```postgresql
@@ -17,4 +13,12 @@ create table checks (
     checkedText text,
     lang varchar(10)
 );
+```
+
+## How to run
+```shell
+composer install
+npm install
+cd public
+php -S localhost:8000
 ```
