@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Тестовое задание</title>
+</head>
+<body>
+    <div class="grid">
+        <div>
+            <form id="form">
+                <p>Введите текст</p>
+                <div contenteditable="true" id="text-input"></div>
+                <input name="submit-btn" type="submit" value="Проверить">
+            </form>
+        </div>
+        <div id="history-grid">
+            <p>История проверок</p>
+            <table>
+                <thead>
+                <tr><td>Язык текста</td><td>Время проверки</td><td>Текст</td></tr>
+                </thead>
+                <tbody id="history-template"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

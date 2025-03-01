@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "JetBrains Mono", serif;
+    font-size: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+form {
+    display: contents;
+}
+
+input {
+    padding: 10px;
+    margin-top: 7px;
+    border: dimgrey 1px solid;
+}
+
+#text-input {
+    border: dimgrey 1px solid;
+    min-height: 150px;
+    max-height: 600px;
+    width: 90%;
+    resize: vertical;
+    overflow: scroll;
+}
+
+p {
+    padding: 10px 0;
+}
+
+b {
+    color: red;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid > div {
+    margin-top: 40px;
+    padding: 20px;
+    border: dimgrey 1px solid;
+    width: 45%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 750px;
+}
+
+#history-grid > table {
+    border: dimgrey 1px solid;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+#history-grid > table * {
+    border: dimgrey 1px solid;
+    text-align: center;
+}
+
+td {
+    width: 33%;
+    max-width: 33%;
+    overflow: hidden;
+}
